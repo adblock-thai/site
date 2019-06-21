@@ -15,9 +15,9 @@ module.exports = {
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   // userTwitter: "@minimal", // Twitter Username - Optional
-  // ogSiteName: "minimal", // Facebook Site Name - Optional
+  ogSiteName: "Ablock Thai", // Facebook Site Name - Optional
   ogLanguage: "th_TH", // Facebook Language
-  googleAnalyticsID: "",
+  googleAnalyticsID: "UA-142553035-1",
 
   // Manifest and Progress color
   // See: https://developers.google.com/web/fundamentals/web-app-manifest/
