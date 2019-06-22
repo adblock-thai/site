@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/", // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
 
-  siteTitle: "Ablock Thai", // Navigation and Site Title
-  siteTitleAlt: "Ablock Thai บล็อคโฆษณา ลบโฆษณา", // Alternative Site title for SEO
-  siteTitleManifest: "Ablock Thai",
+  siteTitle: "Adblock Thai", // Navigation and Site Title
+  siteTitleAlt: "Adblock Thai บล็อคโฆษณา ลบโฆษณา", // Alternative Site title for SEO
+  siteTitleManifest: "Adblock Thai",
   siteUrl: "https://adblock-thai.github.io", // Domain of your site. No trailing slash!
   siteLanguage: "th", // Language Tag on <html> element
   siteHeadline: "รายการตัวกรองโฆษณาสำหรับประเทศไทย", // Headline for schema.org JSONLD
@@ -16,7 +16,7 @@ module.exports = {
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   // userTwitter: "@minimal", // Twitter Username - Optional
-  ogSiteName: "Ablock Thai", // Facebook Site Name - Optional
+  ogSiteName: "Adblock Thai", // Facebook Site Name - Optional
   ogLanguage: "th_TH", // Facebook Language
   googleAnalyticsID: "UA-142553035-1",
 
