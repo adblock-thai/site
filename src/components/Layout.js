@@ -6,6 +6,12 @@ import SEO from "./SEO";
 import theme from "../../config/theme";
 import useBuildTime from "../hooks/useBuildTime";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+library.add(fab);
+
 const GlobalStyle = createGlobalStyle`
   *,
   *:before,
@@ -204,9 +210,9 @@ const Layout = ({ children, customSEO }) => {
         <GlobalStyle />
         {children}
         <Footer>
-          &copy; 2019 by Adblock Thai. All rights reserved. <br />
+          &copy; 2019 by Adblock Thai. All rights reserved.{" "}
           <a href="https://github.com/adblock-thai/thai-ads-filter">
-            GitHub
+            <FontAwesomeIcon size="lg" icon={["fab", "github"]} /> GitHub
           </a>{" "}
           <br />
           <span>Last build: {buildTime}</span>
