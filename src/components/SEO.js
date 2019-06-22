@@ -9,6 +9,7 @@ const SEO = props => {
 
   let title;
   let description;
+  let keyword;
 
   const realPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
   const homeURL = `${config.siteUrl}${realPrefix}`;
@@ -22,6 +23,7 @@ const SEO = props => {
   } else {
     title = config.siteTitleAlt;
     description = config.siteDescription;
+    keyword = config.siteKeyword;
   }
 
   // schema.org in JSONLD format
@@ -147,6 +149,7 @@ const SEO = props => {
       <html lang={config.siteLanguage} />
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="keywords" content={keyword} />
       <meta name="image" content={image} />
       <meta name="gatsby-starter" content="Gatsby Starter Minimal Blog" />
       <meta property="og:locale" content={config.ogLanguage} />
