@@ -49,10 +49,9 @@ const IndexPage = ({
   <Layout>
     <Wrapper>
       <Hero>
-        <h1>
-          <img src="logo.png" width="80px" /> Adblock Thai
-        </h1>
-
+        <h2>
+          <img src="logo.png" width="50px" /> Adblock Thai
+        </h2>
         <p>
           รำคาญโฆษณา? รายการตัวกรองโฆษณาสำหรับประเทศไทย
           ช่วยให้คุณปิดโฆษณาและการติดตามต่างๆในเว็บของประเทศไทย
