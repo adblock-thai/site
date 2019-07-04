@@ -62,19 +62,7 @@ const IndexPage = ({
           <div className="is-size-4">
             <p>
               ติดตั้งส่วนเสริม{" "}
-              <span
-                data-label="Surf the web without annoying ads!"
-                className="is-dark is-top is-large tooltip is-multiline"
-              >
-                <a href="https://adblockplus.org/" target="_blank">
-                  Adblock Plus
-                </a>
-              </span>{" "}
-              หรือ{" "}
-              <span
-                data-label="Finally, an efficient blocker. Easy on CPU and memory."
-                className="is-dark is-top is-large tooltip is-multiline"
-              >
+              <span className="is-dark is-top is-large tooltip is-multiline">
                 <a
                   href="https://github.com/gorhill/uBlock/#installation"
                   target="_blank"
@@ -83,10 +71,7 @@ const IndexPage = ({
                 </a>
               </span>{" "}
               หรือ{" "}
-              <span
-                data-label="Finally, an efficient blocker. Easy on CPU and memory."
-                className="is-dark is-top is-large tooltip is-multiline"
-              >
+              <span className="is-dark is-top is-large tooltip is-multiline">
                 <a
                   href="https://github.com/NanoAdblocker/NanoCore#install-links"
                   target="_blank"
@@ -103,12 +88,9 @@ const IndexPage = ({
               >
                 กดที่นี่
               </a>{" "}
-              เพื่อเพิ่มรายการไปยังส่วนเสริม
-            </p>
-            <p>
-              หรือเพิ่มไฟล์{" "}
+              เพื่อเพิ่มรายการไปยังส่วนเสริม หรือเพิ่ม{" "}
               <a href="https://adblock-thai.github.io/thai-ads-filter/subscription.txt">
-                subscription.txt
+                URL
               </a>{" "}
               ด้วยตัวเอง
             </p>
@@ -127,7 +109,7 @@ const IndexPage = ({
             >
               <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z" />
             </svg>
-            แจ้งเราที่นี่
+            แจ้งที่นี่
           </Button>
         </Link>
       </Hero>
