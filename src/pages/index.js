@@ -113,7 +113,7 @@ const IndexPage = ({
           </Button>
         </Link>
       </Hero>
-      {/* <Content>
+      <Content>
         <SectionTitle>Latest stories</SectionTitle>
         {posts.map(post => (
           <Article
@@ -126,7 +126,7 @@ const IndexPage = ({
             key={post.fields.slug}
           />
         ))}
-      </Content> */}
+      </Content>
     </Wrapper>
   </Layout>
 );

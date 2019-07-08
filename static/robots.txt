@@ -1,4 +1,3 @@
-User-agent: *
-Allow: /$
-Disallow: /
+User-Agent: *
+Allow: /
 sitemap: https://adblock-thai.github.io/sitemap.xml
