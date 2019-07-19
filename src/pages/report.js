@@ -62,9 +62,15 @@ const Report = () => (
           >
             <FontAwesomeIcon size="2x" icon={["fab", "line"]} /> LINE SQUARE
           </a>{" "}
-          หรือ{" "}
           <a
-            href="https://github.com/adblock-thai/thai-ads-filter/issues/new"
+            href="https://www.facebook.com/adblock.thai"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon size="2x" icon={["fab", "facebook"]} /> Facebook
+          </a>{" "}
+          <a
+            href="https://github.com/adblock-thai/thai-ads-filter"
             target="_blank"
             rel="noreferrer"
           >
