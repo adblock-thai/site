@@ -4,7 +4,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import { Layout, Wrapper, Header, Button } from "../components";
+import { Layout, Wrapper, Header, Community } from "../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import config from "../../config";
@@ -54,30 +54,10 @@ const Report = () => (
         <h2>รายงานพบโฆษณา</h2>
         <h5>
           หากคุณพบโฆษณาในเว็บหรืออยากให้บล็อคเพิ่ม <br />
-          แจ้งได้ที่{" "}
-          <a
-            href="https://line.me/ti/g2/AAUOP0DACB"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon size="2x" icon={["fab", "line"]} /> LINE SQUARE
-          </a>{" "}
-          <a
-            href="https://www.facebook.com/adblock.thai"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon size="2x" icon={["fab", "facebook"]} /> Facebook
-          </a>{" "}
-          <a
-            href="https://github.com/adblock-thai/thai-ads-filter"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon size="2x" icon={["fab", "github"]} /> GitHub
-          </a>
+          แจ้งได้ที่
+          <br />
+          <Community />
         </h5>
-        <img src="/lq_code.jpg" width="300px"></img>
       </Content>
     </Wrapper>
   </Layout>

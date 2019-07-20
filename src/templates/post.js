@@ -5,7 +5,15 @@ import styled from "styled-components";
 import kebabCase from "lodash/kebabCase";
 import MDXRenderer from "gatsby-mdx/mdx-renderer";
 
-import { Layout, Wrapper, Header, Subline, SEO, PrevNext } from "../components";
+import {
+  Layout,
+  Wrapper,
+  Header,
+  Subline,
+  SEO,
+  PrevNext,
+  Community
+} from "../components";
 import config from "../../config";
 
 import { Disqus } from "gatsby-plugin-disqus";
@@ -84,6 +92,7 @@ const Post = ({
           <PostContent>
             <MDXRenderer>{postNode.code.body}</MDXRenderer>
           </PostContent>
+          <Community />
           <PrevNext prev={prev} next={next} />
           <br />
           <hr />
