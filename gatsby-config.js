@@ -51,7 +51,8 @@ module.exports = {
               maintainCase: false
             }
           }
-        ]
+        ],
+        plugins: [`gatsby-remark-images`]
       }
     },
     "gatsby-plugin-catch-links",
