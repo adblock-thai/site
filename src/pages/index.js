@@ -81,6 +81,26 @@ const IndexPage = ({
               </span>
             </p>
             <p>
+              <ul>
+                <li>
+                  <a
+                    href="/วิธีติดตั้งโปรแกรมบล็อกโฆษณาสำหรับ-chrome"
+                    className="button is-success is-rounded"
+                  >
+                    วิธีติดตั้งสำหรับ Chrome
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/วิธีติดตั้งโปรแกรมบล็อกโฆษณาสำหรับ-firefox-ใช้ใน-android-ได้"
+                    className="button is-success is-rounded"
+                  >
+                    วิธีติดตั้งสำหรับ Firefox
+                  </a>
+                </li>
+              </ul>
+            </p>
+            <p>
               จากนั้น{" "}
               <a
                 href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/subscription.txt&title=Thai Adblock List"
