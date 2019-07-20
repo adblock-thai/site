@@ -8,6 +8,8 @@ import MDXRenderer from "gatsby-mdx/mdx-renderer";
 import { Layout, Wrapper, Header, Subline, SEO, PrevNext } from "../components";
 import config from "../../config";
 
+import { Disqus } from "gatsby-plugin-disqus";
+
 const Content = styled.article`
   grid-column: 2;
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
@@ -55,6 +57,11 @@ const Post = ({
   data: { mdx: postNode }
 }) => {
   const post = postNode.frontmatter;
+  const disqusConfig = {
+    url: `${config.siteUrl + slug}`,
+    identifier: slug,
+    title: post.title
+  };
 
   return (
     <Layout customSEO>
@@ -78,6 +85,9 @@ const Post = ({
             <MDXRenderer>{postNode.code.body}</MDXRenderer>
           </PostContent>
           <PrevNext prev={prev} next={next} />
+          <br />
+          <hr />
+          <Disqus config={disqusConfig} />
         </Content>
       </Wrapper>
     </Layout>

@@ -72,6 +72,12 @@ module.exports = {
     //   }
     // },
     // "gatsby-plugin-offline",
-    "gatsby-plugin-netlify"
+    "gatsby-plugin-netlify",
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `adblock-thai`
+      }
+    }
   ]
 };
