@@ -101,15 +101,14 @@ const IndexPage = ({
               </ul>
             </p>
             <p>
-              จากนั้น{" "}
-              <a
-                href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/subscription.txt&title=Thai Adblock List"
-                className="button is-success is-rounded"
-              >
+              ถ้ามี Adblock ติดตั้งอยู่แล้ว{" "}
+              <a href="abp:subscribe?location=https://gitcdn.xyz/repo/adblock-thai/thai-ads-filter/gh-pages/subscription.txt&title=Thai Adblock List">
                 กดที่นี่
               </a>{" "}
-              เพื่อเพิ่มรายการไปยังส่วนเสริม หรือเพิ่ม{" "}
-              <a href="https://adblock-thai.github.io/thai-ads-filter/subscription.txt">
+              เพื่อเพิ่มรายการไปยังส่วนเสริม
+              <br />
+              หรือเพิ่ม{" "}
+              <a href="https://gitcdn.xyz/repo/adblock-thai/thai-ads-filter/gh-pages/subscription.txt">
                 URL
               </a>{" "}
               ด้วยตัวเอง
