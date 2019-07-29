@@ -50,10 +50,13 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
+    "test": "echo \"no test specified\" && exit 0",
     "build": "gatsby build",
     "dev": "gatsby develop -o",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
+    "preDeploy": "gatsby build --prefix-paths",
+    "deploy": "npm run preDeploy && gh-pages -d public",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
     "lint:ci": "yarn lint --format junit -o results/eslint/result.xml",

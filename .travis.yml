@@ -4,19 +4,25 @@ node_js:
 
 cache:
   directories:
-  - .cache
+  - node_modules
 
 branches:
   only:
     - master
 
-before_deploy: gatsby build
 deploy:
   provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
   repo: adblock-thai/adblock-thai.github.io
-  local_dir: ./public
-  target_branch: master
+  local_dir: public
+  keep-history: true
   on:
     branch: master
+before_script:
+  - "npm i -g gatsby"
+  - "npm i"
+script:
+  - "npm run test"
+after_success:
+  - "npm run deploy"
