@@ -23,5 +23,6 @@ deploy:
   repo: adblock-thai/adblock-thai.github.io
   local_dir: public
   keep-history: true
+  target_branch : master
   on:
     branch: master
