@@ -27,8 +27,7 @@ module.exports = {
     {
       resolve: "gatsby-mdx",
       options: {
-        gatsbyRemarkPlugins: [
-          {
+        gatsbyRemarkPlugins: [{
             resolve: "gatsby-remark-external-links",
             options: {
               target: "_blank",
@@ -58,6 +57,7 @@ module.exports = {
     "gatsby-plugin-catch-links",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-lodash",
+    "gatsby-plugin-no-sourcemaps",
     // {
     //   resolve: "gatsby-plugin-manifest",
     //   options: {
