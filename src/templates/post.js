@@ -52,7 +52,7 @@ const Content = styled.article`
   }
 `;
 
-const Title = styled.h1`
+const Title = styled.h3`
   margin-bottom: 1rem;
 `;
 
