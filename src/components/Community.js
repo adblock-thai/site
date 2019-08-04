@@ -13,28 +13,40 @@ const Content = styled.div`
   margin-top: 6rem;
   align-items: center;
   text-align: center;
+
+  h5 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
 `;
 
 const Community = () => (
-  <Content>
-    <a href="https://line.me/ti/g2/AAUOP0DACB" target="_blank" rel="noreferrer">
-      <FontAwesomeIcon size="2x" icon={["fab", "line"]} />
-    </a>{" "}
-    <a
-      href="https://www.facebook.com/adblock.thai"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <FontAwesomeIcon size="2x" icon={["fab", "facebook"]} />
-    </a>{" "}
-    <a
-      href="https://github.com/adblock-thai/thai-ads-filter"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <FontAwesomeIcon size="2x" icon={["fab", "github"]} />
-    </a>
-  </Content>
+  <div>
+    <Content>
+      <h5>พูดคุยกับเราได้ตามช่องทางต่างๆด้านล่าง</h5>
+      <a
+        href="https://line.me/ti/g2/AAUOP0DACB"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon size="2x" icon={["fab", "line"]} />
+      </a>{" "}
+      <a
+        href="https://www.facebook.com/adblock.thai"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon size="2x" icon={["fab", "facebook"]} />
+      </a>{" "}
+      <a
+        href="https://github.com/adblock-thai/thai-ads-filter"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon size="2x" icon={["fab", "github"]} />
+      </a>
+    </Content>
+  </div>
 );
 
 export default Community;
