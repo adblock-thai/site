@@ -7,7 +7,7 @@ const Content = styled.div`
   grid-column: 3;
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
-  padding: 2rem 4rem;
+  padding: 2rem 1rem;
   background-color: ${props => props.theme.colors.bg};
   z-index: 9000;
   margin-top: 6rem;
