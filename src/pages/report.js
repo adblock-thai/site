@@ -58,7 +58,7 @@ const Report = () => (
           <form
             name="report-form"
             method="post"
-            accept-charset="utf-8"
+            acceptCharset="utf-8"
             action="https://formspree.io/pakondaman@gmail.com"
           >
             <p>
