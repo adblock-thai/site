@@ -23,7 +23,7 @@ const Content = styled.div`
 const Community = () => (
   <div>
     <Content>
-      <h5>พูดคุยกับเราได้ตามช่องทางต่างๆด้านล่าง</h5>
+      <h5>หากมีคำถามหรือข้อเสนอแนะ พูดคุยกับเราได้ตามช่องทาง</h5>
       <a
         href="https://line.me/ti/g2/AAUOP0DACB"
         target="_blank"
