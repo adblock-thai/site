@@ -40,6 +40,16 @@ const Hero = styled.div`
       font-size: 1.25rem;
     }
   }
+
+  .filter-desc {
+    font-size: 1.1rem !important;
+    @media (max-width: ${props => props.theme.breakpoints.tablet}) {
+      font-size: 1rem;
+    }
+    @media (max-width: ${props => props.theme.breakpoints.phone}) {
+      font-size: 1rem;
+    }
+  }
 `;
 
 const IndexPage = ({
@@ -59,7 +69,6 @@ const IndexPage = ({
         </p>
         <hr />
         <br />
-
         <div className="is-size-4">
           <p>
             ติดตั้งส่วนเสริม{" "}
@@ -113,7 +122,6 @@ const IndexPage = ({
             ด้วยตัวเอง
           </p>
         </div>
-
         <p>
           <Link to="/report">
             พบโฆษณาในเว็บ?{"  "}
@@ -132,6 +140,33 @@ const IndexPage = ({
         </p>
         <hr />
         <br />
+        <p>ตัวกรองทั้งหมด</p>
+        <p>
+          <a href="https://adblock-thai.github.io/thai-ads-filter/subscription.txt">
+            Thai Ads Filters
+          </a>{" "}
+          <a href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/subscription.txt&title=Thai Adblock List">
+            (ติดตั้ง)
+          </a>
+          <br />
+          <label className="filter-desc">
+            ตัวกรองสำหรับ uBO ที่มีวัตถุประสงค์เพื่อลบโฆษณาของไทย การติดตาม
+            เว็บไซต์หลอกลวงและโปรแกรมอันตราย
+          </label>
+        </p>
+        <p>
+          <a href="https://adblock-thai.github.io/thai-ads-filter/annoyance.txt">
+            Thai Annoyance Filters
+          </a>{" "}
+          <a href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/annoyance.txt&title=Thai Annoyances List">
+            (ติดตั้ง)
+          </a>
+          <br />
+          <label className="filter-desc">
+            ตัวกรองที่มีจุดประสงค์เพื่อลบสิ่งรบกวนที่บังหน้าจอการใช้งานและสิ่งที่ไม่จำเป็นออก
+          </label>
+        </p>
+        <hr />
       </Hero>
       <Content>
         <SectionTitle>Latest stories</SectionTitle>
