@@ -4,7 +4,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import { Layout, Wrapper, Header } from "../components";
+import { Layout, Wrapper, Header, Community } from "../components";
 
 import config from "../../config";
 
@@ -48,8 +48,8 @@ const Success = () => (
         <Link to="/">{config.siteTitle}</Link>
       </Header>
       <Content>
-        <h1>Your message was sent!</h1>
-        <p>I'll answer your request as quick as possible.</p>
+        <h3>ข้อความของคุณถูกส่งแล้ว!</h3>
+        <Community />
       </Content>
     </Wrapper>
   </Layout>

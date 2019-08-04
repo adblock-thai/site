@@ -4,7 +4,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import { Layout, Wrapper, Header, Community } from "../components";
+import { Layout, Wrapper, Header, Community, Button } from "../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import config from "../../config";
@@ -30,7 +30,7 @@ const Content = styled.div`
         display: block;
       }
       input {
-        min-width: 275px;
+        min-width: 255px;
         margin-top: 0.5rem;
       }
       textarea {
@@ -53,9 +53,57 @@ const Report = () => (
       <Content>
         <h2>รายงานพบโฆษณา</h2>
         <h5>
-          หากคุณพบโฆษณาในเว็บหรืออยากให้บล็อคเพิ่ม <br />
-          แจ้งได้ที่
+          หากคุณพบโฆษณาในเว็บหรืออยากให้บล็อคเพิ่มโปรดกรอกข้อมูลข้างล่าง <br />
           <br />
+          <form
+            name="report-form"
+            method="post"
+            accept-charset="utf-8"
+            action="https://formspree.io/pakondaman@gmail.com"
+          >
+            <p>
+              <label htmlFor="report-email">
+                อีเมล{" "}
+                <input
+                  name="_replyto"
+                  placeholder="อีเมลของคุณ"
+                  id="report-email"
+                  type="email"
+                />
+              </label>
+            </p>
+            <p>
+              <label htmlFor="report-url">
+                ตัวอย่าง URL{" "}
+                <input
+                  name="report_url"
+                  id="report-url"
+                  placeholder="ใส่ตัวอย่าง url ที่นี่"
+                  required
+                />
+              </label>
+            </p>
+            <p>
+              <label htmlFor="report-message">
+                รายละเอียด <br />
+                <textarea
+                  name="message"
+                  id="report-message"
+                  placeholder="รายละเอียดเพิ่มเติม เช่น โฆษณาในแทบด้านข้าง"
+                  required
+                />
+              </label>
+            </p>
+            <input type="hidden" name="_language" value="th" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://adblock-thai.github.io/success/"
+            />
+            <p>
+              <Button>ส่ง</Button>
+            </p>
+          </form>
           <Community />
         </h5>
       </Content>
