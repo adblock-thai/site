@@ -74,11 +74,11 @@ const Report = () => (
             </p>
             <p>
               <label htmlFor="report-url">
-                ตัวอย่าง URL{" "}
+                URL{" "}
                 <input
                   name="report_url"
                   id="report-url"
-                  placeholder="ใส่ตัวอย่าง url ที่นี่"
+                  placeholder="ใส่ url ของเว็บที่นี่"
                   required
                 />
               </label>
