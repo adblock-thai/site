@@ -101,10 +101,18 @@ const IndexPage = ({
             </li>
             <li>
               <a
-                href="/วิธีติดตั้งโปรแกรมบล็อกโฆษณาสำหรับ-firefox-ใช้ใน-android-ได้"
+                href="/วิธีติดตั้งโปรแกรมบล็อกโฆษณาสำหรับ-firefox"
                 className="button is-success is-rounded"
               >
                 วิธีติดตั้งสำหรับ Firefox
+              </a>
+            </li>
+            <li>
+              <a
+                href="/วิธีติดตั้งโปรแกรมบล็อกโฆษณาสำหรับ-firefox-android"
+                className="button is-success is-rounded"
+              >
+                วิธีติดตั้งสำหรับ Firefox (Android)
               </a>
             </li>
           </ul>
@@ -141,31 +149,31 @@ const IndexPage = ({
         <hr />
         <br />
         <p>ตัวกรองทั้งหมด</p>
-        <p>
-          <a href="https://adblock-thai.github.io/thai-ads-filter/subscription.txt">
-            Thai Ads Filters
-          </a>{" "}
-          <a href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/subscription.txt&title=Thai Adblock List">
-            (ติดตั้ง)
-          </a>
-          <br />
+        <ul>
+          <li>
+            <a href="https://adblock-thai.github.io/thai-ads-filter/subscription.txt">
+              Thai Ads Filters
+            </a>{" "}
+            <a href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/subscription.txt&title=Thai Adblock List">
+              (ติดตั้ง)
+            </a>
+          </li>
           <label className="filter-desc">
             ตัวกรองสำหรับ uBO ที่มีวัตถุประสงค์เพื่อลบโฆษณาของไทย การติดตาม
             เว็บไซต์หลอกลวงและโปรแกรมอันตราย
           </label>
-        </p>
-        <p>
-          <a href="https://adblock-thai.github.io/thai-ads-filter/annoyance.txt">
-            Thai Annoyance Filters
-          </a>{" "}
-          <a href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/annoyance.txt&title=Thai Annoyances List">
-            (ติดตั้ง)
-          </a>
-          <br />
+          <li>
+            <a href="https://adblock-thai.github.io/thai-ads-filter/annoyance.txt">
+              Thai Annoyance Filters
+            </a>{" "}
+            <a href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/annoyance.txt&title=Thai Annoyances List">
+              (ติดตั้ง)
+            </a>
+          </li>
           <label className="filter-desc">
             ตัวกรองที่มีจุดประสงค์เพื่อลบสิ่งรบกวนที่บังหน้าจอการใช้งานและสิ่งที่ไม่จำเป็นออก
           </label>
-        </p>
+        </ul>
         <hr />
       </Hero>
       <Content>
