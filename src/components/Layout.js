@@ -210,7 +210,7 @@ const Layout = ({ children, customSEO }) => {
         <GlobalStyle />
         {children}
         <Footer>
-          &copy; 2019 by Adblock Thai. All rights reserved.{" "}
+          &copy; 2019 by Adblock Thai.{" "}
           <a href="https://github.com/adblock-thai/thai-ads-filter">
             <FontAwesomeIcon size="lg" icon={["fab", "github"]} /> GitHub
           </a>{" "}
