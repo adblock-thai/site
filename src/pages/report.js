@@ -100,6 +100,7 @@ const Report = () => (
               name="_next"
               value="https://adblock-thai.github.io/success/"
             />
+            <input type="hidden" name="_subject" value="Ads site report" />
             <p>
               <Button>ส่ง</Button>
             </p>
