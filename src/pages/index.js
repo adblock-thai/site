@@ -117,7 +117,7 @@ const IndexPage = ({
             </li>
           </ul>
           <p>
-            ถ้ามี Adblock ติดตั้งอยู่แล้ว{" "}
+            ถ้ามี uBlock ติดตั้งอยู่แล้ว{" "}
             <a href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/subscription.txt&title=Thai Adblock List">
               กดที่นี่
             </a>{" "}
