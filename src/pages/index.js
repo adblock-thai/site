@@ -93,7 +93,7 @@ const IndexPage = ({
           <ul>
             <li>
               <a
-                href="/วิธีติดตั้งโปรแกรมบล็อกโฆษณาสำหรับ-chrome"
+                href="/how-to-install-adblock-for-chrome"
                 className="button is-success is-rounded"
               >
                 วิธีติดตั้งสำหรับ Chrome
@@ -101,7 +101,7 @@ const IndexPage = ({
             </li>
             <li>
               <a
-                href="/วิธีติดตั้งโปรแกรมบล็อกโฆษณาสำหรับ-firefox"
+                href="/how-to-install-adblock-for-firefox"
                 className="button is-success is-rounded"
               >
                 วิธีติดตั้งสำหรับ Firefox
@@ -109,7 +109,7 @@ const IndexPage = ({
             </li>
             <li>
               <a
-                href="/วิธีติดตั้งโปรแกรมบล็อกโฆษณาสำหรับ-firefox-android"
+                href="/how-to-install-adblock-for-firefox-android"
                 className="button is-success is-rounded"
               >
                 วิธีติดตั้งสำหรับ Firefox (Android)
