@@ -27,7 +27,8 @@ module.exports = {
     {
       resolve: "gatsby-mdx",
       options: {
-        gatsbyRemarkPlugins: [{
+        gatsbyRemarkPlugins: [
+          {
             resolve: "gatsby-remark-external-links",
             options: {
               target: "_blank",
@@ -77,6 +78,14 @@ module.exports = {
       resolve: `gatsby-plugin-disqus`,
       options: {
         shortname: `adblock-thai`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-github-ribbon`,
+      options: {
+        project: `https://github.com/adblock-thai/thai-ads-filter`,
+        color: `gray`, //`red`, `green`, `darkblue`, `orange`, `gray`, or `white`.
+        position: `right` //`left` or `right`
       }
     }
   ]
