@@ -9,7 +9,8 @@ module.exports = {
   siteHeadline: "รายการตัวกรองโฆษณาสำหรับประเทศไทย", // Headline for schema.org JSONLD
   siteBanner: "/social/banner.jpg", // Your image for og:image tag. You can find it in the /static folder
   favicon: "src/favicon.png", // Your image for favicons. You can find it in the /src folder
-  siteDescription: "บล็อกโฆษณาและการติดตามต่างๆในเว็บของประเทศไทย", // Your site description
+  siteDescription:
+    "รำคาญโฆษณา? รายการตัวกรองโฆษณาสำหรับประเทศไทย ช่วยให้คุณปิดโฆษณาและการติดตามต่างๆในเว็บของประเทศไทย", // Your site description
   siteKeyword: "ลบโฆษณา,บล็อกโฆษณา,adblock,adblock thai,block ads", // Your site keyword
   author: "adblock-thai", // Author for schemaORGJSONLD
   siteLogo: "/social/logo.png", // Image for schemaORGJSONLD
