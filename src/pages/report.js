@@ -79,6 +79,7 @@ const Report = () => (
                   name="report_url"
                   id="report-url"
                   placeholder="ใส่ url ของเว็บที่นี่"
+                  type="text"
                   required
                 />
               </label>
