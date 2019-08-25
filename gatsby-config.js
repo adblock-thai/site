@@ -79,14 +79,6 @@ module.exports = {
       options: {
         shortname: `adblock-thai`
       }
-    },
-    {
-      resolve: `gatsby-plugin-github-ribbon`,
-      options: {
-        project: `https://github.com/adblock-thai/thai-ads-filter`,
-        color: `gray`, //`red`, `green`, `darkblue`, `orange`, `gray`, or `white`.
-        position: `right` //`left` or `right`
-      }
     }
   ]
 };

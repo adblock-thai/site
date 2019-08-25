@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import styled from "styled-components";
+import GitHubButton from "react-github-btn";
 
 import { Layout, Article, Wrapper, Button, SectionTitle } from "../components";
 
@@ -67,6 +68,27 @@ const IndexPage = ({
           รำคาญโฆษณา? รายการตัวกรองโฆษณาสำหรับประเทศไทย
           ช่วยให้คุณปิดโฆษณาและการติดตามต่างๆในเว็บของประเทศไทย
         </p>
+        <p>
+          <GitHubButton
+            href="https://github.com/adblock-thai/thai-ads-filter"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star adblock-thai/thai-ads-filter on GitHub"
+            data-icon="octicon-star"
+          >
+            Star
+          </GitHubButton>{" "}
+          <GitHubButton
+            href="https://github.com/adblock-thai/thai-ads-filter/fork"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Fork adblock-thai/thai-ads-filter on GitHub"
+            data-icon="octicon-repo-forked"
+          >
+            Fork
+          </GitHubButton>
+        </p>
+
         <hr />
         <br />
         <div className="is-size-4">
