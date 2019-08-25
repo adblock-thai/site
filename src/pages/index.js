@@ -115,6 +115,14 @@ const IndexPage = ({
                 วิธีติดตั้งสำหรับ Firefox (Android)
               </a>
             </li>
+            <li>
+              <a
+                href="/how-to-install-adblock-for-edge-insider"
+                className="button is-success is-rounded"
+              >
+                วิธีติดตั้งสำหรับ Edge Insider
+              </a>
+            </li>
           </ul>
           <p>
             ถ้ามี uBlock ติดตั้งอยู่แล้ว{" "}
