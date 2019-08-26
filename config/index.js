@@ -11,7 +11,7 @@ module.exports = {
   favicon: "src/favicon.png", // Your image for favicons. You can find it in the /src folder
   siteDescription:
     "รำคาญโฆษณา? รายการฟิลเตอร์โฆษณาสำหรับประเทศไทย ช่วยให้คุณปิดโฆษณาและการติดตามต่างๆในเว็บของประเทศไทย", // Your site description
-  siteKeyword: "ลบโฆษณา,บล็อกโฆษณา,adblock,adblock thai,block ads", // Your site keyword
+  siteKeyword: "วิธีลบโฆษณา,ลบโฆษณา,บล็อกโฆษณา,adblock,adblock thai,block ads", // Your site keyword
   author: "adblock-thai", // Author for schemaORGJSONLD
   siteLogo: "/social/logo.png", // Image for schemaORGJSONLD
 
