@@ -65,7 +65,7 @@ const IndexPage = ({
           <img src="logo-256.webp" width="50px" alt="logo" /> Adblock Thai
         </h2>
         <p>
-          รำคาญโฆษณา? รายการตัวกรองโฆษณาสำหรับประเทศไทย
+          รำคาญโฆษณา? รายการฟิลเตอร์โฆษณาสำหรับประเทศไทย
           ช่วยให้คุณปิดโฆษณาและการติดตามต่างๆในเว็บของประเทศไทย
         </p>
         <p>
@@ -162,18 +162,18 @@ const IndexPage = ({
         </div>
         <hr />
         <br />
-        <p>ตัวกรองทั้งหมด</p>
+        <p>ฟิลเตอร์ทั้งหมด</p>
         <ul>
           <li>
             <a href="https://adblock-thai.github.io/thai-ads-filter/subscription.txt">
               Thai Ads Filters
             </a>{" "}
             <a href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/subscription.txt&title=Thai Adblock List">
-              (ติดตั้ง)
+              (เพิ่ม)
             </a>
           </li>
           <label className="filter-desc">
-            ตัวกรองสำหรับ uBO ที่มีวัตถุประสงค์เพื่อลบโฆษณาของไทย การติดตาม
+            ฟิลเตอร์สำหรับ uBO ที่มีวัตถุประสงค์เพื่อลบโฆษณาของไทย การติดตาม
             เว็บไซต์หลอกลวงและโปรแกรมอันตราย
           </label>
           <li>
@@ -181,11 +181,11 @@ const IndexPage = ({
               Thai Annoyance Filters
             </a>{" "}
             <a href="abp:subscribe?location=https://adblock-thai.github.io/thai-ads-filter/annoyance.txt&title=Thai Annoyances List">
-              (ติดตั้ง)
+              (เพิ่ม)
             </a>
           </li>
           <label className="filter-desc">
-            ตัวกรองที่มีจุดประสงค์เพื่อลบสิ่งรบกวนที่บังหน้าจอการใช้งานและสิ่งที่ไม่จำเป็นออก
+            ฟิลเตอร์ที่มีจุดประสงค์เพื่อลบสิ่งรบกวนที่บังหน้าจอการใช้งานและสิ่งที่ไม่จำเป็นออก
           </label>
         </ul>
         <hr />
