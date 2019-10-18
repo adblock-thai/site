@@ -214,6 +214,18 @@ const Layout = ({ children, customSEO }) => {
           <a href="https://github.com/adblock-thai/thai-ads-filter">
             <FontAwesomeIcon size="lg" icon={["fab", "github"]} /> GitHub
           </a>{" "}
+          <a
+            href="https://spectrum.chat/adblock-thailand"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              style={{ width: "1em", fontSize: "1.3em" }}
+              src="/social/spectrum_logo.jpg"
+              alt="sprectum"
+            />{" "}
+            Sprectum
+          </a>{" "}
           <br />
           <span>Last build: {buildTime}</span>
         </Footer>
@@ -226,9 +238,9 @@ export default Layout;
 
 Layout.propTypes = {
   children: PropTypes.oneOfType([PropTypes.array, PropTypes.node]).isRequired,
-  customSEO: PropTypes.bool
+  customSEO: PropTypes.bool,
 };
 
 Layout.defaultProps = {
-  customSEO: false
+  customSEO: false,
 };

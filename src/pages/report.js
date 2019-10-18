@@ -51,63 +51,13 @@ const Report = () => (
         <Link to="/">{config.siteTitle}</Link>
       </Header>
       <Content>
-        <h2>รายงานพบโฆษณา</h2>
-        <h5>
-          หากคุณพบโฆษณาในเว็บหรืออยากให้บล็อกเพิ่มโปรดกรอกข้อมูลในแบบฟอร์ม
-          <br />
-          <form
-            name="report-form"
-            method="post"
-            acceptCharset="utf-8"
-            action="https://formspree.io/pakondaman@gmail.com"
-          >
-            <p>
-              <label htmlFor="report-email">
-                อีเมล{" "}
-                <input
-                  name="_replyto"
-                  placeholder="อีเมลของคุณ"
-                  id="report-email"
-                  type="email"
-                />
-              </label>
-            </p>
-            <p>
-              <label htmlFor="report-url">
-                URL{" "}
-                <input
-                  name="report_url"
-                  id="report-url"
-                  placeholder="ใส่ url ของเว็บที่นี่"
-                  type="text"
-                  required
-                />
-              </label>
-            </p>
-            <p>
-              <label htmlFor="report-message">
-                รายละเอียด <br />
-                <textarea
-                  name="message"
-                  id="report-message"
-                  placeholder="รายละเอียดเพิ่มเติม เช่น โฆษณาในแทบด้านข้าง"
-                  required
-                />
-              </label>
-            </p>
-            <input type="hidden" name="_language" value="th" />
-            <input
-              type="hidden"
-              name="_next"
-              value="https://adblock-thai.github.io/success/"
-            />
-            <input type="hidden" name="_subject" value="Ads site report" />
-            <p>
-              <Button>ส่ง</Button>
-            </p>
-          </form>
+        <h3>
+          แจ้งพบโฆษณาได้ที่{" "}
+          <a href="https://spectrum.chat/adblock-thailand">Spectrum Chat</a>{" "}
+          หรือ{" "}
+          <a href="https://github.com/adblock-thai/thai-ads-filter">Github</a>
           <Community />
-        </h5>
+        </h3>
       </Content>
     </Wrapper>
   </Layout>

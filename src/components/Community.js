@@ -25,18 +25,15 @@ const Community = () => (
     <Content>
       <h5>หากมีคำถามหรือข้อเสนอแนะ พูดคุยกับเราได้ตามช่องทาง</h5>
       <a
-        href="https://line.me/ti/g2/AAUOP0DACB"
+        href="https://spectrum.chat/adblock-thailand"
         target="_blank"
         rel="noreferrer"
       >
-        <FontAwesomeIcon size="2x" icon={["fab", "line"]} />
-      </a>{" "}
-      <a
-        href="https://www.facebook.com/adblock.thai"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <FontAwesomeIcon size="2x" icon={["fab", "facebook"]} />
+        <img
+          style={{ width: "1em", fontSize: "2em" }}
+          src="/social/spectrum_logo.jpg"
+          alt="sprectum"
+        />
       </a>{" "}
       <a
         href="https://github.com/adblock-thai/thai-ads-filter"
