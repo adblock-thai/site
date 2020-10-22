@@ -101,15 +101,6 @@ const IndexPage = ({
               >
                 uBlock Origin
               </a>
-            </span>{" "}
-            หรือ{" "}
-            <span className="is-dark is-top is-large tooltip is-multiline">
-              <a
-                href="https://github.com/NanoAdblocker/NanoCore#install-links"
-                target="_blank"
-              >
-                Nano Adblocker
-              </a>
             </span>
           </p>
           <ul>
@@ -139,10 +130,10 @@ const IndexPage = ({
             </li>
             <li>
               <a
-                href="/how-to-install-adblock-for-edge-insider"
+                href="/how-to-install-adblock-for-edge-chrome"
                 className="button is-success is-rounded"
               >
-                วิธีติดตั้งสำหรับ Edge Insider
+                วิธีติดตั้งสำหรับ Edge Chrome
               </a>
             </li>
           </ul>
